@@ -1,0 +1,26 @@
+.list {
+  /* width: 520px; */
+  border: 1px solid;
+  border-radius: 20px;
+  padding: 0;
+}
+
+.list_item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  justify-content: space-around;
+}
+
+.list_button {
+  border: 0;
+  outline: 0;
+  border-radius: 20px;
+  cursor: pointer;
+  font: inherit;
+  transition: background-color 200ms ease-in-out;
+}
+
+.list_button:hover {
+  box-shadow: 0px 2px 1px 1px rgba(0, 0, 0, 0.15);
+}
