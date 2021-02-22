@@ -13,7 +13,7 @@ export default function ContactForm() {
   const [number, setNumber] = useState("");
 
   const onSubmit = (name, number) =>
-    dispatch(operations.addContact(name, number));
+    dispatch(operations.addContact({ name, number }));
 
   const newContact = () => {
     const includeName = contacts.reduce(
